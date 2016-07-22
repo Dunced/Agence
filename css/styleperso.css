@@ -9,7 +9,7 @@ header {
  margin-bottom: 20px;
 }
 .bg-panel-heading {
- background: rgba(210, 134, 134, 0.4) !important;
+ background: rgba(184, 194, 222, 0.4) !important;
  border-radius: 10px ;
  border: 1px solid transparent;
 }
@@ -18,8 +18,52 @@ header {
  margin-left: 60px;
 }
 .bg-opacity {
- background: rgba(210, 134, 134, 0.4);
+ background: rgba(184, 194, 222, 0.4);
 }
 .rouge {
-  color: red;
+  color: #0600A6;
+}
+/*h1 {
+  text-shadow: 1px 1px #BA4E00;
+}*/
+
+h1 {
+font-family: Arial, sans-serif;
+font-size: 3.2em;
+line-height: 1em;
+margin-left: 65px;
+text-shadow: 2px 2px 0 rgba(159, 172, 207, 0.5);;
+display: block;
+text-transform: uppercase;
+color: #15263B;
+}
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 1em;
+  margin: -8px 0 0 65px;
+  text-shadow: 2px 2px 0 rgba(159, 172, 207, 0.6);;
+  display: block;
+  text-transform: uppercase;
+  color: #15263B;
+}
+.radio {
+  float: right;
+  margin: 0 50px 0 0;
+  width: 200px;
+}
+label {
+  margin: 0 10px 0 0;
+}
+#nom {
+  margin: 0 0 0 20px;
+}
+#civilite {
+  margin: 0 0 0 11px;
+}
+#excursions {
+  margin: 0 0 0 27px;
+}
+#choix_voyage {
+  margin: 0 0 0 63px;
 }
